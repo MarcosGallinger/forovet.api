@@ -63,7 +63,7 @@ mvn spring-boot:run
 Accede a la documentación API:
 🔗 http://localhost:8080/swagger-ui.html
 
-🌐 Endpoints Principales
+🌐 ## Endpoints Principales
 
 |Método  |	Ruta       |	Descripción|
 | ------ | ----------- | ----------- |
@@ -74,13 +74,14 @@ Accede a la documentación API:
 |POST	   |/login       |	Iniciar sesión|
 
 🐕 Ejemplo de JSON para Tópico
+
 json
 {
   "titulo": "Manejo de diabetes en gatos",
   "mensaje": "¿Qué protocolos recomiendan para felinos con diabetes mellitus?",
   "autor": "Dra. Laura Pérez"
 }
-🛡 Seguridad
+🛡 ## Seguridad
 Solo usuarios autenticados pueden crear/modificar/eliminar tópicos.
 
 Validación de roles:
@@ -89,7 +90,7 @@ VETERINARIO: Gestiona sus propios tópicos.
 
 ADMIN: Acceso total.
 
-📬 Contribuciones
+📬 ## Contribuciones
 ¡Contribuciones son bienvenidas! Abre un issue o envía un pull request.
 
 📜 Licencia
