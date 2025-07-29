@@ -1,4 +1,4 @@
-🚀 ## Funcionalidades Principales
+## 🚀  Funcionalidades Principales
 1. Gestión de Tópicos
 - Crear tópicos: Publica nuevos temas con título, mensaje y autor (veterinario registrado).
 
@@ -17,7 +17,7 @@
 - Endpoints documentados con Swagger para integración frontend.
 
 
-🛠 ## Tecnologías Utilizadas
+## 🛠  Tecnologías Utilizadas
 - Backend
 - Base de Datos
 - Otros
@@ -30,7 +30,7 @@
 - Hibernate
 - Swagger/OpenAPI
   
-📋 ## Instalación y Uso
+## 📋  Instalación y Uso
 
 
 | REQUISITOS |
@@ -61,9 +61,9 @@ Inicia la aplicación:
 bash
 mvn spring-boot:run
 Accede a la documentación API:
-🔗 http://localhost:8080/swagger-ui.html
+## 🔗 http://localhost:8080/swagger-ui.html
 
-🌐 ## Endpoints Principales
+## 🌐  Endpoints Principales
 
 |Método  |	Ruta       |	Descripción|
 | ------ | ----------- | ----------- |
@@ -73,15 +73,16 @@ Accede a la documentación API:
 |DELETE	 |/topicos/{id}|	Eliminar tópico (solo autor/admin)|
 |POST	   |/login       |	Iniciar sesión|
 
-🐕 Ejemplo de JSON para Tópico
+## 🐕 Ejemplo de JSON para Tópico
 
 json
-{
+`{
   "titulo": "Manejo de diabetes en gatos",
   "mensaje": "¿Qué protocolos recomiendan para felinos con diabetes mellitus?",
   "autor": "Dra. Laura Pérez"
-}
-🛡 ## Seguridad
+}`
+
+## 🛡  Seguridad
 Solo usuarios autenticados pueden crear/modificar/eliminar tópicos.
 
 Validación de roles:
@@ -90,7 +91,7 @@ VETERINARIO: Gestiona sus propios tópicos.
 
 ADMIN: Acceso total.
 
-📬 ## Contribuciones
+## 📬  Contribuciones
 ¡Contribuciones son bienvenidas! Abre un issue o envía un pull request.
 
 📜 Licencia
