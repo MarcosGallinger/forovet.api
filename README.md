@@ -1,20 +1,20 @@
 🚀 Funcionalidades Principales
 1. Gestión de Tópicos
-Crear tópicos: Publica nuevos temas con título, mensaje y autor (veterinario registrado).
+- Crear tópicos: Publica nuevos temas con título, mensaje y autor (veterinario registrado).
 
-Listar tópicos: Visualiza todos los tópicos existentes en orden cronológico.
+- Listar tópicos: Visualiza todos los tópicos existentes en orden cronológico.
 
-Modificar tópicos: Edita el título o contenido (solo usuarios autenticados).
+- Modificar tópicos: Edita el título o contenido (solo usuarios autenticados).
 
-Eliminar tópicos: Borra publicaciones (solo el autor o administradores).
+- Eliminar tópicos: Borra publicaciones (solo el autor o administradores).
 
 2. Usuarios
-Registro/Login: Solo veterinarios verificados pueden participar.
+- Registro/Login: Solo veterinarios verificados pueden participar.
 
-Autenticación segura: JWT (JSON Web Tokens) para proteger operaciones.
+- Autenticación segura: JWT (JSON Web Tokens) para proteger operaciones.
 
 3. API RESTful
-Endpoints documentados con Swagger para integración frontend.
+- Endpoints documentados con Swagger para integración frontend.
 
 🛠 Tecnologías Utilizadas
 Backend	Frontend	Base de Datos	Otros
