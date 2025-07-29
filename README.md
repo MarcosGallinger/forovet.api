@@ -1,4 +1,4 @@
-🚀 Funcionalidades Principales
+🚀 ##Funcionalidades Principales
 1. Gestión de Tópicos
 - Crear tópicos: Publica nuevos temas con título, mensaje y autor (veterinario registrado).
 
@@ -16,18 +16,28 @@
 3. API RESTful
 - Endpoints documentados con Swagger para integración frontend.
 
-🛠 Tecnologías Utilizadas
-Backend	Frontend	Base de Datos	Otros
-Java 17	(Próximamente)	MySQL	Spring Boot 3.x
-Spring Security		Flyway (migraciones)	JWT
-Hibernate			Swagger/OpenAPI
-📋 Instalación y Uso
-Requisitos
-JDK 17+
 
-MySQL 8.x
+🛠 ##Tecnologías Utilizadas
+- Backend
+- Base de Datos
+- Otros
+- Java 17	(Próximamente)
+- MySQL
+- Spring Boot 3.x
+- Spring Security
+- Flyway (migraciones)
+- JWT
+- Hibernate
+- Swagger/OpenAPI
+  
+📋 ##Instalación y Uso
 
-Maven
+
+| REQUISITOS |
+| ---------- |
+|JDK 17+|
+|MySQL 8.x|
+|Maven|
 
 Pasos para ejecutar
 Clona el repositorio:
