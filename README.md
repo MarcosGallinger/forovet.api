@@ -1,4 +1,4 @@
-🚀 ##Funcionalidades Principales
+🚀 ## Funcionalidades Principales
 1. Gestión de Tópicos
 - Crear tópicos: Publica nuevos temas con título, mensaje y autor (veterinario registrado).
 
@@ -17,7 +17,7 @@
 - Endpoints documentados con Swagger para integración frontend.
 
 
-🛠 ##Tecnologías Utilizadas
+🛠 ## Tecnologías Utilizadas
 - Backend
 - Base de Datos
 - Otros
@@ -30,7 +30,7 @@
 - Hibernate
 - Swagger/OpenAPI
   
-📋 ##Instalación y Uso
+📋 ## Instalación y Uso
 
 
 | REQUISITOS |
@@ -64,12 +64,14 @@ Accede a la documentación API:
 🔗 http://localhost:8080/swagger-ui.html
 
 🌐 Endpoints Principales
-Método	Ruta	Descripción
-POST	/topicos	Crear nuevo tópico
-GET	/topicos	Listar todos los tópicos
-PUT	/topicos/{id}	Actualizar tópico (por ID)
-DELETE	/topicos/{id}	Eliminar tópico (solo autor/admin)
-POST	/login	Iniciar sesión
+
+|Método|	Ruta|	Descripción|
+|POST	|/topicos|	Crear nuevo tópico|
+|GET	|/topicos|	Listar todos los tópicos|
+|PUT	|/topicos/{id}|	Actualizar tópico (por ID)|
+|DELETE	|/topicos/{id}|	Eliminar tópico (solo autor/admin)|
+|POST	|/login|	Iniciar sesión|
+
 🐕 Ejemplo de JSON para Tópico
 json
 {
