@@ -65,12 +65,13 @@ Accede a la documentación API:
 
 🌐 Endpoints Principales
 
-|Método|	Ruta|	Descripción|
-|POST	|/topicos|	Crear nuevo tópico|
-|GET	|/topicos|	Listar todos los tópicos|
-|PUT	|/topicos/{id}|	Actualizar tópico (por ID)|
-|DELETE	|/topicos/{id}|	Eliminar tópico (solo autor/admin)|
-|POST	|/login|	Iniciar sesión|
+|Método  |	Ruta       |	Descripción|
+| ------ | ----------- | ----------- |
+|POST	   |/topicos     |	Crear nuevo tópico|
+|GET	   |/topicos     |	Listar todos los tópicos|
+|PUT	   |/topicos/{id}|	Actualizar tópico (por ID)|
+|DELETE	 |/topicos/{id}|	Eliminar tópico (solo autor/admin)|
+|POST	   |/login       |	Iniciar sesión|
 
 🐕 Ejemplo de JSON para Tópico
 json
